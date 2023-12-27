@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyTomcat
 
 ## 一、功能介绍
@@ -106,3 +107,6 @@ if(servlet!=null) {
 ## 三、参考资料
 1. [从零开始手写Tomcat，一文彻底搞懂Tomcat运行流程（附源码）](https://blog.csdn.net/qq_41973594/article/details/102712793)
 2. [【Java】反射之Class.forName()](https://blog.csdn.net/wk1134314305/article/details/77951644)
+=======
+# MyTomcat
+>>>>>>> 0c4e2b9a5b40de6b520c749272801894c9ec8ecb
