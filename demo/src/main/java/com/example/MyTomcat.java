@@ -29,10 +29,11 @@ public class MyTomcat {
     public void init() {
         try {
             // 获取 web.xml 目录地址
-            String path = MyTomcat.class.getResource("/").getPath();
+            String path = System.getProperty("user.dir");
+            System.out.println("===Current Path===\n" + path);
             // 读取 web.xml 文件
             SAXReader reader = new SAXReader();
-            Document document = reader.read(new File(path + "web.xml"));
+            Document document = reader.read(new File(path + "\\demo\\src\\web.xml"));
             Element rootElement = document.getRootElement();
             List<Element> elements = rootElement.elements();
             for(Element element:elements) {

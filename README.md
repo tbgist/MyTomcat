@@ -62,7 +62,7 @@ Servlet 用来接收、处理客户端的请求，以及将服务器响应的动
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>userServlet</servlet-name>
-        <servlet-class>com.sdxb.servlet.UserServlet</servlet-class>
+        <servlet-class>com.example.UserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>userServlet</servlet-name>
