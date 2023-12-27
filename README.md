@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MyTomcat
 
 ## 一、功能介绍
@@ -109,4 +108,3 @@ if(servlet!=null) {
 2. [【Java】反射之Class.forName()](https://blog.csdn.net/wk1134314305/article/details/77951644)
 =======
 # MyTomcat
->>>>>>> 0c4e2b9a5b40de6b520c749272801894c9ec8ecb
